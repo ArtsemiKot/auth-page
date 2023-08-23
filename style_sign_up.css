@@ -15,7 +15,7 @@ main {
 
 main .info {
     width: 524px;
-    height: 529px;
+    height: 592px;
     margin: 174px 0 0 93px;
 }
 
@@ -47,13 +47,13 @@ main .info p {
     margin-left: auto;
 }
 
-main .login {
+main .sign_up {
     width: 440px;
     height: 641px;
     margin: 166px 155px 0 0;
 }
 
-main .login .welcom .img_hand {
+main .sign_up .welcom .img_hand {
     background-image: url(./assets/hand.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -61,31 +61,31 @@ main .login .welcom .img_hand {
     height: 36px;
 }
 
-main .login .welcom h1 {
+main .sign_up .welcom h1 {
     color: #292731;
     font: 600 30px 'Poppins';
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-main .login .welcom p {
+main .sign_up .welcom p {
     color: #292731;
     font: 400 16px 'Poppins';
     margin-bottom: 62px;
 }
 
-main .login .email div {
+main .sign_up .email div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-main .login .email div p {
+main .sign_up .email div p {
     color: #455360;
     font: 500 16px 'Poppins';
 }
 
-main .login .email div .img_symbol {
+main .sign_up .email div .img_symbol {
     background-image: url(./assets/symbol.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -93,7 +93,7 @@ main .login .email div .img_symbol {
     height: 16px;
 }
 
-main .login .email input {
+main .sign_up .email input {
     border: none;
     border-radius: 4px;
     background: #ECF2F7;
@@ -103,21 +103,21 @@ main .login .email input {
     margin-top: 10px;
 }
 
-main .login .email input::placeholder {
+main .sign_up .email input::placeholder {
     padding: 0 0 0 22px;
 }
 
-main .login .password {
+main .sign_up .password {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-main .login .password p {
+main .sign_up .password p {
     color: #455360;
     font: 500 16px 'Poppins';
 }
 
-main .login .password input {
+main .sign_up .password input {
     border: none;
     border-radius: 4px;
     background: #ECF2F7;
@@ -127,11 +127,30 @@ main .login .password input {
     margin-top: 10px;
 }
 
-main .login .password input::placeholder {
+main .sign_up .password input::placeholder {
     padding: 0 0 0 22px;
 }
 
-main .login button {
+main .sign_up .confirm_password p {
+    color: #455360;
+    font: 500 16px 'Poppins';
+}
+
+main .sign_up .confirm_password input {
+    border: none;
+    border-radius: 4px;
+    background: #ECF2F7;
+    width: 440px;
+    height: 48px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main .sign_up .confirm_password input::placeholder {
+    padding: 0 0 0 22px;
+}
+
+main .sign_up button {
     border: none;
     border-radius: 8px;
     background: #4C70FF;
@@ -144,13 +163,13 @@ main .login button {
     margin-bottom: 19px;
 }
 
-main .login .link p {
+main .sign_up .link p {
     color: #292731;
     font: 500 16px 'Poppins';
     text-align: center;
 }
 
-main .login .link a {
+main .sign_up .link a {
     text-decoration: none;
     color: #66BCE8;
 }
