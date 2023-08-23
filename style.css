@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Poppins';
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to right, #E2F0FF 50%, #FFF 50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+main .info {
+    width: 524px;
+    height: 529px;
+    margin: 174px 0 0 93px;
+}
+
+main .info .img {
+    background-image: url(./assets/info.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 524px;
+    height: 391px;
+}
+
+main .info h1 {
+    width: 400px;
+    color: #292731;
+    text-align: center;
+    font: 600 26px 'Poppins';
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    margin-bottom: 23px;
+}
+
+main .info p {
+    width: 386px;
+    color: #455360;
+    text-align: center;
+    font: 400 16px 'Poppins';
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main .login {
+    width: 440px;
+    height: 641px;
+    margin: 166px 155px 0 0;
+}
+
+main .login .welcom .img_hand {
+    background-image: url(./assets/hand.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+}
+
+main .login .welcom h1 {
+    color: #292731;
+    font: 600 30px 'Poppins';
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+main .login .welcom p {
+    color: #292731;
+    font: 400 16px 'Poppins';
+    margin-bottom: 62px;
+}
+
+main .login .email div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .login .email div p {
+    color: #455360;
+    font: 500 16px 'Poppins';
+}
+
+main .login .email div .img_symbol {
+    background-image: url(./assets/symbol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+
+main .login .email input {
+    border: none;
+    border-radius: 4px;
+    background: #ECF2F7;
+    width: 440px;
+    height: 48px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main .login .email input::placeholder {
+    padding: 0 0 0 22px;
+}
+
+main .login .password {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .login .password p {
+    color: #455360;
+    font: 500 16px 'Poppins';
+}
+
+main .login .password input {
+    border: none;
+    border-radius: 4px;
+    background: #ECF2F7;
+    width: 440px;
+    height: 48px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main .login .password input::placeholder {
+    padding: 0 0 0 22px;
+}
+
+main .login button {
+    border: none;
+    border-radius: 8px;
+    background: #4C70FF;
+    width: 440px;
+    height: 50px;
+    align-items: center;
+    color: #FFF;
+    font-family: 500 20px 'Poppins';
+    margin-top: 44px;
+    margin-bottom: 19px;
+}
+
+main .login .link p {
+    color: #292731;
+    font: 500 16px 'Poppins';
+    text-align: center;
+}
+
+main .login .link a {
+    text-decoration: none;
+    color: #66BCE8;
+}
