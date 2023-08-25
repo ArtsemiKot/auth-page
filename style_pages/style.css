@@ -20,7 +20,7 @@ main .info {
 }
 
 main .info .img {
-    background-image: url(./assets/info.svg);
+    background-image: url(../assets/info.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 524px;
@@ -54,7 +54,7 @@ main .login {
 }
 
 main .login .welcom .img_hand {
-    background-image: url(./assets/hand.svg);
+    background-image: url(../assets/hand.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 36px;
@@ -86,7 +86,7 @@ main .login .email div p {
 }
 
 main .login .email div .img_symbol {
-    background-image: url(./assets/symbol.png);
+    background-image: url(../assets/symbol.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 16px;
